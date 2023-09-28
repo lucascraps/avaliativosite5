@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset='UTF-8' />
+        <title>Login</title>
+        <link rel='stylesheet' href='./index.css'/>
+    </head>
+    <body>
+        <main class='login'>
+            <section>
+                <form onsubmit="alert('Logado com sucesso!')" method="GET">
+                    <h1>Login</h1>
+                    <img src='./image/user.png' id='user-img' alt='Nickname'/>
+                    <input type='text' id='user' placeholder='User' required/>
+                    <img src='./image/lock.png' id='password-img' alt='Cadeado'/>
+                    <input type='password' id='password' placeholder='Password' required/>
+                    <input type="checkbox" checked id='remember' />
+                    <span>Remember-me</span>
+                    <input type='submit' value='Join' />
+                    <span>Log in with:</span>
+                    <div>
+                        <button id='google'><div><img src='./image/facebook.png' alt='Logo Facebook' /><span>Facebook</span></div></button>
+                        <button id='google'><div><img src='./image/google.png' alt='Logo Google' /><span>Google</span></div></button>
+                    </div>
+                    <span>Don't have an account? <a href='#'>Sign up</a></span>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>
